@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Ganti dengan gambar latar yang sesuai */
+    background-size: cover;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.produk-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.produk-gambar {
+    width: 100%; /* Atur lebar gambar agar responsif */
+    max-width: 300px; /* Atur lebar maksimum gambar */
+    height: auto; /* Atur tinggi gambar secara otomatis */
+    display: block;
+    margin: 10px auto; /* Pusatkan gambar */
+}
